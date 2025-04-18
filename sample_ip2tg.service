@@ -1,0 +1,15 @@
+# Change paths accordingly
+
+[Unit]
+Description=Send local IP to Telegram at Startup
+After=network.target
+
+[Service]
+# Uses local venv
+ExecStart=/home/username/Projects/ip2tg/venv/bin/python /home/username/Projects/ip2tg/main.py
+Restart=on-failure
+User=rsm
+WorkingDirectory=/home/username/Projects/ip2tg/
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+# service file, leave ip2tg_change_it.service visible
+ip2tg.service
+
+# logs
+log.txt
+
+# .env
+.env
+
+# venv
+venv/
