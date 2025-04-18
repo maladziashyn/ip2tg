@@ -13,7 +13,7 @@ Rename `sample_ip2tg.service` to `ip2tg.service`, modify the paths respectively.
 Copy the file `ip2tg.service` to `/etc/systemd/system` using `sudo`:
 
 ```
-$ sudo cp ip2tg.service /etc/systemd/system`
+$ sudo cp ip2tg.service /etc/systemd/system
 ```
 
 Enable and start the service:
